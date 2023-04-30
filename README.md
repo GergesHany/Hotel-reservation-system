@@ -3,6 +3,6 @@ Hotel reservation system project
 
 
 ## Installing
-```markdown
+```bash
 git clone https://github.com/GergesHany/Hotel-reservation-system.git
 ```
