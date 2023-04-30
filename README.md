@@ -1,5 +1,6 @@
 # Hotel-reservation-system
-Hotel reservation system project 
+
+`Hotel reservation system project` 
 
 
 ## Installing
