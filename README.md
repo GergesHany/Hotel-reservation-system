@@ -6,26 +6,26 @@
 
 ## `class`
 ### 1. Customer
-  - `Id` (national id)
-  - `Name` (first name, last name)
-  - `Age` (age of customer)
-  - `Address` (address of customer)
-  - `Phone number` (phone number of customer)
-  - `Check in date` (date of check in)
-  - `Check out date` (date of check out)
-  - `Nationality` (Nationality of customer)
-  - `Payment` (cash or credit card)
-  - `Object of room` (room number)
-  - `national id` (id of customer)
-  - `Email` (email of customer)
-  - `Reservation number` (number of reservation)
+  - `Id` 
+  - `Name` 
+  - `Age` 
+  - `Address` 
+  - `Phone number` 
+  - `Check in date` 
+  - `Check out date` 
+  - `Nationality` 
+  - `Payment`
+  - `Object of room`
+  - `national id`
+  - `Email`
+  - `Reservation number`
 
 ### 2. Room
-   - `Id` (room number)
-   - `Capacity` (number of people)
-   - `Status` (available or not)
-   - `Room type` (single, double, triple, suite)
-   - `Rent` (price per night)
+   - `Id` 
+   - `Capacity` 
+   - `Status` 
+   - `Room type`
+   - `Rent` 
 
 <hr>
 
