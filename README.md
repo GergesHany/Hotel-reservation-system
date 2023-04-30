@@ -6,36 +6,35 @@
 
 ## `class`
 ### 1. Customer
-  - Id
-  - Name
-  - Age
-  - Address
-  - Phone number
-  - Check in date
-  - Check out date
-  - Nationality
-  - Payment 
-  - Object of room
-  - national id
-  - Email
-  - Reservation number
+  - `Id`
+  - `Name`
+  - `Age`
+  - `Address`
+  - `Phone number`
+  - `Check in date`
+  - `Check out date`
+  - `Nationality`
+  - `Payment`
+  - `Object of room`
+  - `national id`
+  - `Email`
+  - `Reservation number`
 
 ### 2. Room
-   - Id
-   - Capacity
-   - Status
-   - Room type
-   - Rent
+   - `Id`
+   - `Capacity`
+   - `Status`
+   - `Room type`
+   - `Rent`
 
 <hr>
 
 ## `Methods`
-- Add customer
+- `Add customer`
   - Show available rooms
   - add customer
-- Search customer
-- View rooms details
-
+- `Search customer`
+- `View rooms details`
 
 
 ## `Installing`
