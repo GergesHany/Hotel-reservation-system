@@ -6,26 +6,26 @@
 
 ## `class`
 ### 1. Customer
-  - `Id`
-  - `Name`
-  - `Age`
-  - `Address`
-  - `Phone number`
-  - `Check in date`
-  - `Check out date`
-  - `Nationality`
-  - `Payment`
-  - `Object of room`
-  - `national id`
-  - `Email`
-  - `Reservation number`
+  - `Id` (national id)
+  - `Name` (first name, last name)
+  - `Age` (age of customer)
+  - `Address` (address of customer)
+  - `Phone number` (phone number of customer)
+  - `Check in date` (date of check in)
+  - `Check out date` (date of check out)
+  - `Nationality` (Nationality of customer)
+  - `Payment` (cash or credit card)
+  - `Object of room` (room number)
+  - `national id` (id of customer)
+  - `Email` (email of customer)
+  - `Reservation number` (number of reservation)
 
 ### 2. Room
-   - `Id`
-   - `Capacity`
-   - `Status`
-   - `Room type`
-   - `Rent`
+   - `Id` (room number)
+   - `Capacity` (number of people)
+   - `Status` (available or not)
+   - `Room type` (single, double, triple, suite)
+   - `Rent` (price per night)
 
 <hr>
 
@@ -48,3 +48,5 @@
 # downloading the project
 git clone https://github.com/GergesHany/Hotel-reservation-system.git
 ```
+### After that, you need to open the project in your IDE and run it.
+
