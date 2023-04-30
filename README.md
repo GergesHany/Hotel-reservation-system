@@ -34,8 +34,14 @@
   - Show available rooms
   - add customer
 - `Search customer`
+  - Search by Id
+  - Search by name
+  - Search by Email
+  - Search by phone number
 - `View rooms details`
 
+
+<hr>
 
 ## `Installing`
 ```bash
