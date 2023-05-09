@@ -29,15 +29,18 @@
 
 <hr>
 
-## `Methods`
-- `Add customer`
-  - Show available rooms
-  - add customer
-- `Search customer`
-  - Search by Id
-  - Search by name
-- `View rooms details`
-
+## Menu 
+- `Add new customer`
+- `update customer data`
+- `update room data`
+- `delete customer`
+- `search for customer`
+- `show all customers`
+- `show all available rooms`
+- `show all reserved rooms`
+- `show all rooms`
+- `show hotel data`
+- `exit`
 
 <hr>
 
