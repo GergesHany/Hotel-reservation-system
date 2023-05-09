@@ -48,6 +48,7 @@ git clone https://github.com/GergesHany/Hotel-reservation-system.git
 ```
 ### After that, you need to open the project in your IDE and run it.
 
+<hr><br>
 
 ## Contributers
 - [Gerges Hany](https://github.com/GergesHany)
