@@ -35,8 +35,7 @@
   - add customer
 - `Search customer`
   - Search by Id
-  - Search by Email
-  - Search by phone number
+  - Search by name
 - `View rooms details`
 
 
