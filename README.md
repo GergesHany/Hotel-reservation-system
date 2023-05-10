@@ -6,26 +6,32 @@
 
 ## `class`
 ### 1. Customer
-  - `Id` 
-  - `Name` 
-  - `Age` 
-  - `Address` 
-  - `Phone number` 
-  - `Check in date` 
-  - `Check out date` 
-  - `Nationality` 
-  - `Payment`
-  - `Object of room`
+  - `Id`  
+  - `Age`
+  - `hotel id`
+  - `total price`
+  - `payment status`
+  - `reservation number`
   - `national id`
-  - `Email`
-  - `Reservation number`
+  - `address`
+  - `nationality`
+  - `name`
+  - `email`
+  - `phone`
+  - `check in`
+  - `check out`
+  - `currunt room id` 
+
 
 ### 2. Room
-   - `Id` 
-   - `Capacity` 
-   - `Status` 
-   - `Room type`
-   - `Rent` 
+   - `room number` 
+   - `room price` 
+   - `room floor` 
+   - `room capacity`
+   - `room beds`
+   - `hotel id`
+   - `room type`
+   - `room status` 
 
 <hr>
 
