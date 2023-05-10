@@ -14,10 +14,10 @@ struct date{
     int day;
     int month;
     int year;
-    date(int day=0, int month=0, int year=0){
-        this->day = day;
-        this->month = month;
-        this->year = year;
+    date(int day = 0, int month = 0, int year = 0){
+        this -> day = day;
+        this -> month = month;
+        this -> year = year;
     }
 };
 
