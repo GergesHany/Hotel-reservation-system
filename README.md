@@ -32,6 +32,9 @@
    - `hotel id`
    - `room type`
    - `room status` 
+  
+  
+### 3. hotel
 
 <hr>
 
