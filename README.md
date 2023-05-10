@@ -35,6 +35,18 @@
   
   
 ### 3. hotel
+   - `id`
+   - `stars`
+   - `name`
+   - `rooms count`
+   - `customers count`
+   - `address`
+   - `phone`
+   - `email`
+   - `website`
+   - `description`
+   - `rooms`
+   - `customers`
 
 <hr>
 
