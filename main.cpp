@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include </home/gerges/Desktop/student_project/hotel.cpp>
+#include "hotel.cpp"
 using namespace std;
 
 #define ll long long
