@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include </home/gerges/Desktop/student_project/hotel.cpp>
+#include "hotel.cpp"
 using namespace std;
 
 #define ll long long
@@ -39,16 +39,16 @@ bool check_str(string name){
 void startup(){
     cout << "Welcome to our hotel management system" << endl;
     rooms.push_back(room());
-    customer_file.open("customers_data.csv", ios::in);
-    room_file.open("rooms_data.csv", ios::in);
+    customer_file.open("data_files/customers_data.csv", ios::in);
+    room_file.open("data_files/rooms_data.csv", ios::in);
 
     if (!customer_file.is_open()){
-        cout << fileror("customers_data.csv") << endl;
+        cout << fileror("data_files/customers_data.csv") << endl;
         exit(0);
     }
 
     if (!room_file.is_open()){
-        cout << fileror("rooms_data.csv") << endl;
+        cout << fileror("data_files/rooms_data.csv") << endl;
         exit(0);
     }
 
@@ -1169,16 +1169,16 @@ void menu()
 
 void shut_down(){
     fstream customer_file, room_file;
-    customer_file.open("customers_data.csv", ios::out);
-    room_file.open("rooms_data.csv", ios::out);
+    customer_file.open("data_files/customers_data.csv", ios::out);
+    room_file.open("data_files/rooms_data.csv", ios::out);
 
     if (!customer_file.is_open()){
-        cout << fileror("customers_data.csv") << endl;
+        cout << fileror("data_files/customers_data.csv") << endl;
         exit(0);
     }
 
     if (!room_file.is_open()){
-        cout << fileror("rooms_data.csv") << endl;
+        cout << fileror("data_files/rooms_data.csv") << endl;
         exit(0);
     }
 

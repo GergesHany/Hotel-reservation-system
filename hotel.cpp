@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include </home/gerges/Desktop/student_project/customer.cpp>
+#include "customer.cpp"
 using namespace std;
 #define ll long long
 
