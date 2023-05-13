@@ -40,7 +40,7 @@ void startup(){
     cout << "Welcome to our hotel management system" << endl;
     rooms.push_back(room());
     customer_file.open("data_files/customers_data.csv", ios::in);
-    room_file.open("rooms_data.csv", ios::in);
+    room_file.open("data_files/rooms_data.csv", ios::in);
 
     if (!customer_file.is_open()){
         cout << fileror("data_files/customers_data.csv") << endl;
@@ -48,7 +48,7 @@ void startup(){
     }
 
     if (!room_file.is_open()){
-        cout << fileror("rooms_data.csv") << endl;
+        cout << fileror("data_files/rooms_data.csv") << endl;
         exit(0);
     }
 
@@ -1170,7 +1170,7 @@ void menu()
 void shut_down(){
     fstream customer_file, room_file;
     customer_file.open("data_files/customers_data.csv", ios::out);
-    room_file.open("rooms_data.csv", ios::out);
+    room_file.open("data_files/rooms_data.csv", ios::out);
 
     if (!customer_file.is_open()){
         cout << fileror("data_files/customers_data.csv") << endl;
@@ -1178,7 +1178,7 @@ void shut_down(){
     }
 
     if (!room_file.is_open()){
-        cout << fileror("rooms_data.csv") << endl;
+        cout << fileror("data_files/rooms_data.csv") << endl;
         exit(0);
     }
 
